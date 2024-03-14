@@ -1,0 +1,11 @@
+.mainFieldHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+    margin-top: 5px;
+}
+.companionInfo{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.messageList {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #242836;
+}
+.jcc{
+  justify-content: center;
+}
+.notSelected {
+  border-radius: 17px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.18);
+  padding: 10px;
+}
