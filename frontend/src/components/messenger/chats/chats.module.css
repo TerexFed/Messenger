@@ -1,0 +1,16 @@
+.mainChat{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1C2029;
+    padding: 0 5px 0 5px;     
+}
+.topChats{
+    display: flex;
+    align-items: center;
+    margin: 5px 0 17px 0;
+}
+.topChats > sup{
+    margin-left: 17px;
+    font-size: 18px;
+}

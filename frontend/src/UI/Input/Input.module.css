@@ -1,0 +1,16 @@
+input {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  font-family: Segoe UI Variable Static Text;
+  font-weight: 400;
+  line-height: 20px;
+  outline: none;
+}
+.search {
+  width: 20vw;
+  height: 30px;
+  font-size: 16px;
+  margin-left: 5px;
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.79);
+}

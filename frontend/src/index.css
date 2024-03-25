@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI Variable Static Display", sans-serif;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+}
+sup {
+  font-size: 14px;
+  font-weight: 400;
+}

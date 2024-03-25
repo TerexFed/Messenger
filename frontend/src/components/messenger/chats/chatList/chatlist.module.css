@@ -1,0 +1,14 @@
+.chatlist {
+  width: 20vw;
+  height: 85vh;
+  margin: 25px 0 0 5px;
+  overflow: auto;
+  padding-right: 5px;
+}
+.chatlist::-webkit-scrollbar {
+  width: 2px;
+}
+.chatlist::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.54);
+    border-radius: 10px;
+}
