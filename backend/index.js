@@ -13,11 +13,10 @@ app.get('/', (req, res) => {
   res.json({ message: 'Welcome to your messenger app backend!' });
 });
 
-// Add a route for handling POST requests to '/register'
+
 app.post('/register', (req, res) => {
   const { username, email, password } = req.body;
-  // Here you would typically add the user to your database
-  // For demonstration, we'll just respond with the received data
+
   console.log('Registering user:', username, email, password);
   res.status(201).json({ message: "User registered successfully!", user: { username, email } });
 });
